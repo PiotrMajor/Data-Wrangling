@@ -1,4 +1,3 @@
-# Data-Wrangling
 # Wrangle and Analyze Data Project
 
 ### This project is part of Udacity Data Analyst Nanodegree
