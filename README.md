@@ -2,8 +2,6 @@
 
 ### This project is part of Udacity Data Analyst Nanodegree
 
-## Introduction
-
 The purpose of this project is to collect data from multiple sources:
 
 1. WeRateDogs Twitter account using Python's Tweepy library.
