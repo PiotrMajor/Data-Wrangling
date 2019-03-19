@@ -2,10 +2,5 @@
 
 ### This project is part of Udacity Data Analyst Nanodegree
 
-The purpose of this project is to collect data from multiple sources:
-
-1. WeRateDogs Twitter account using Python's Tweepy library.
-2. WeRateDogs' account archive data.
-3. Image prediction data obtained from neural networks that can classify breeds of dogs.
-
-Next, data quality is going to be assessed, cleaned, and analyzed.
+The purpose of this project is to wrangle data about WeRateDogs Twitter account. First, the data is going to be obtained
+from multiple sources. Next, data is going to be assessed in terms of both quality and tidines ( https://ryanwingate.com/purpose/tidy-data/ ). Finally, I will clean the data and perform simple analysis.
