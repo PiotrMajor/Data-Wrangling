@@ -5,7 +5,7 @@
 The purpose of this project is to wrangle data from WeRateDogs Twitter account. First, data is going to be obtained
 from multiple sources. Next, it is going to be assessed in terms of both [quality and tidiness](https://ryanwingate.com/purpose/tidy-data/ ). Finally, I will clean the data so that it is ready for the analysis.
 
-Data wrangling steps in this project:
+## Data wrangling steps in this project:
 1. Changed the ‘id’ column in df_json dataframe to ‘tweet_id’ in order to match it with other dataframes. That will make is easier to merge dataframes at the last steps. In addition, I changed the data type from int to string because ids should not be numeric, and they aren't intended to perform calculations.
 2. Changed ‘timestamp’ column data type in df_archive dataframe. This step will help if I was to analyze the data based on time or date.
 3. Only original tweets must be included in the final master dataset. I deleted the rows that contain retweets. After deleting the rows, I dropped the columns that contained information about these tweets because all the values were null.
